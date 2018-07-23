@@ -1,0 +1,13 @@
+{
+    "name": "godedok/php-brain-games",
+    "bin": [
+        "bin/brain-games"
+    ],
+    "authors": [
+        {
+            "name": "godedok",
+            "email": "gdededok@gmail.com"
+        }
+    ],
+    "require": {}
+}
