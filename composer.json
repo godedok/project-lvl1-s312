@@ -3,6 +3,7 @@
     "bin": [
         "bin/brain-games"
     ],
+    "license": "MIT",
     "authors": [
         {
             "name": "godedok",
