@@ -10,5 +10,10 @@
             "email": "gdededok@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "BrainGames\\Cli\\": "src"
+        }
+    },
     "require": {}
 }
