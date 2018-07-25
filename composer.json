@@ -4,6 +4,10 @@
         "bin/brain-games"
     ],
     "license": "MIT",
+    "type": "project",
+    "keywords": ["hexlet", "brain-games"],
+    "description": "My first project brain-games on PHP",
+    "homepage": "https://github.com/godedok/project-lvl1-s312",
     "authors": [
         {
             "name": "godedok",
