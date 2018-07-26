@@ -17,5 +17,7 @@
     "autoload": {
         "files": ["src/Cli.php"]
         },
-    "require": {}
+    "require": {
+        "godedok/php-brain-games": "dev-master"
+    }
 }
