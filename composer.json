@@ -18,6 +18,6 @@
         "files": ["src/Cli.php"]
         },
     "require": {
-        "godedok/php-brain-games": "dev-master"
+        "wp-cli/php-cli-tools": "0.11.*"
     }
 }
