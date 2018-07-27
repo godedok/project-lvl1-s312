@@ -1,11 +1,19 @@
 #!/usr/bin/env php
 <?php
 /**
- * PHP
- * 
- * @author    Name <username@example.com>
- * @copyright 2018
- * @license   Name https://github.com/godedok
+ * Namespace
+ *
+ * PHP version 7
+ *
+ * @category PHP
+ *
+ * @package PHP_Braingames
+ *
+ * @author Name <username@example.com>
+ *
+ * @license Name https://github.com/godedok
+ *
+ * @link https://github.com/
  */
 $autoloadPath1 = __DIR__ . '/../../../autoload.php';
 $autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
