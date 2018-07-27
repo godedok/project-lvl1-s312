@@ -1,20 +1,6 @@
 #!/usr/bin/env php
 <?php
-/**
- * Namespace
- *
- * PHP version 7
- *
- * @category PHP
- *
- * @package PHP_Braingames
- *
- * @author Name <username@example.com>
- *
- * @license Name https://github.com/godedok
- *
- * @link https://github.com/
- */
+
 $autoloadPath1 = __DIR__ . '/../../../autoload.php';
 $autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
 if (file_exists($autoloadPath1)) {
