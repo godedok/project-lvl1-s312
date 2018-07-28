@@ -19,8 +19,7 @@ function run()
     startGame(DESCRIPTION_GCD, $getGcdGame);
 }
 
-function gcd($number1, $number2) 
+function gcd($number1, $number2)
 {
     return ($number1 % $number2) ? gcd($number2, $number1 % $number2) : $number2;
 }
-
