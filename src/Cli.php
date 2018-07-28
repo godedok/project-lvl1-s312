@@ -21,7 +21,7 @@ function startGame($description, $getEvenGame)
         line("Question: %s", $question);
         $userAnswer = prompt("Your answer");
 
-        if ($trueAnswer === $userAnswer) {
+        if ($trueAnswer == $userAnswer) {
             line("Correct!");
         } else {
             line("'%s' is wrong answer ;(.", $userAnswer);
