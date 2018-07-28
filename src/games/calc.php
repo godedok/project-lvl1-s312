@@ -10,12 +10,13 @@ use function \BrainGames\Cli\startGame;
 function run()
 {
     $getCalcGame = function () {
-        $n1 = rand(0, 30);
-        $n2 = rand(0, 30);
-        $op = OPERATORS[rand(0, 2)];
+        $number1 = rand(0, 30);
+        $number2 = rand(0, 30);
+        $size = sizeof(OPERATORS);
+        $operator = OPERATORS[rand(0, $size)];
         return [
-            "question" => "{$n1} {$op} {$n2}",
-            "trueAnswer" => calculate($n1, $n2, $op)
+            "question" => "{$number1} {$operator} {$number2}",
+            "trueAnswer" => calculate($number1, $number2, $operator)
         ];
     };
     startGame(DESCRIPTION_CALC, $getCalcGame);

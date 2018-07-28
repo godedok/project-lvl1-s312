@@ -6,14 +6,12 @@ use function \cli\line;
 use function \cli\prompt;
 
 const NUMBER_QUESTIONS = 3;
-const WELCOME = 'Welcome to the Brain Game!';
-const NAME_QUESTION = 'May I have your name?';
 
 function startGame($description, $getEvenGame)
 {
-    line("%s", WELCOME);
+    line('Welcome to the Brain Game!');
     line("%s", $description);
-    $name = prompt(line("%s", NAME_QUESTION));
+    $name = prompt(line('May I have your name?'));
     line("Hello, %s!", $name);
     
     for ($i = 0; $i < NUMBER_QUESTIONS; $i++) {
@@ -21,7 +19,7 @@ function startGame($description, $getEvenGame)
         line("Question: %s", $question);
         $userAnswer = prompt("Your answer");
 
-        if ($trueAnswer == $userAnswer) {
+        if ($trueAnswer === $userAnswer) {
             line("Correct!");
         } else {
             line("'%s' is wrong answer ;(.", $userAnswer);
@@ -32,11 +30,4 @@ function startGame($description, $getEvenGame)
     }
     line("Congratulations, %s!", $name);
     return;
-}
-
-function run()
-{
-    line("%s", WELCOME);
-    $name = prompt(line("%s", NAME_QUESTION));
-    line("Hello, %s!", $name);
 }

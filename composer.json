@@ -20,7 +20,8 @@
         "files": [
             "src/Cli.php",
             "src/games/even.php",
-            "src/games/calc.php"
+            "src/games/calc.php",
+            "src/test.php"
         ]
         },
     "require": {
