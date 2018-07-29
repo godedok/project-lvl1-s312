@@ -5,7 +5,9 @@
         "bin/brain-even",
         "bin/brain-calc",
         "bin/brain-gcd",
-        "bin/brain-balance"
+        "bin/brain-balance",
+        "bin/brain-progression",
+        "bin/brain-prime"
     ],
     "license": "MIT",
     "type": "project",
@@ -25,7 +27,9 @@
             "src/games/calc.php",
             "src/test.php",
             "src/games/gcd.php",
-            "src/games/balance.php"
+            "src/games/balance.php",
+            "src/games/progression.php",
+            "src/games/prime.php"
         ]
         },
     "require": {
