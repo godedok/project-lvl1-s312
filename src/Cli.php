@@ -5,7 +5,6 @@ namespace BrainGames\Cli;
 use function \cli\line;
 use function \cli\prompt;
 
-
 function startGame($description, $getGame)
 {
     line('Welcome to the Brain Game!');
@@ -18,7 +17,7 @@ function startGame($description, $getGame)
         line("Question: %s", $question);
         $userAnswer = prompt("Your answer");
 
-        if ("$trueAnswer" === $userAnswer) {
+        if ($trueAnswer === $userAnswer) {
             line("Correct!");
         } else {
             line("'%s' is wrong answer ;(.", $userAnswer);
