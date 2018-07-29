@@ -13,7 +13,7 @@ function run()
         $number2 = rand(1, 100);
         return [
             "question" => "{$number1} {$number2}",
-            "trueAnswer" => gcd($number1, $number2)
+            "trueAnswer" => (string) gcd($number1, $number2)
         ];
     };
     startGame(DESCRIPTION_GCD, $getGcdGame);

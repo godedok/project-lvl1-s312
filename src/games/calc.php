@@ -12,11 +12,11 @@ function run()
     $getCalcGame = function () {
         $number1 = rand(0, 30);
         $number2 = rand(0, 30);
-        $size = sizeof(OPERATORS);
+        $size = sizeof(OPERATORS) - 1;
         $operator = OPERATORS[rand(0, $size)];
         return [
             "question" => "{$number1} {$operator} {$number2}",
-            "trueAnswer" => calculate($number1, $number2, $operator)
+            "trueAnswer" => (string) calculate($number1, $number2, $operator)
         ];
     };
     startGame(DESCRIPTION_CALC, $getCalcGame);
