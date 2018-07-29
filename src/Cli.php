@@ -12,7 +12,8 @@ function startGame($description, $getGame)
     $name = prompt(line('May I have your name?'));
     line("Hello, %s!", $name);
     
-    for ($i = 0; $i < 3; $i++) {
+    $questionsNumber = 3;
+    for ($i = 0; $i < $questionsNumber; $i++) {
         ["question" => $question, "trueAnswer" => $trueAnswer] = $getGame();
         line("Question: %s", $question);
         $userAnswer = prompt("Your answer");
