@@ -14,33 +14,34 @@ Brian Games is a set of console mini-games. Type one of the commands, and answer
 ```
 $ brain-games
 ```
-
+[![asciicast](https://asciinema.org/a/HrkDFIDq1VMkUpP6bDKYcUjGi.png)](https://asciinema.org/a/HrkDFIDq1VMkUpP6bDKYcUjGi)
 2. Game: "Calculator"
 ```
 $ brain-calc
 ```
-
+[![asciicast](https://asciinema.org/a/DvYz5ZzJfadFtRLJNVGCDJC73.png)](https://asciinema.org/a/DvYz5ZzJfadFtRLJNVGCDJC73)
 3. Game: "Check for parity"
 ```
 $ brain-even
 ```
-
+[![asciicast](https://asciinema.org/a/kNDSoPc4IJv205oxiM1KfuGOQ.png)](https://asciinema.org/a/kNDSoPc4IJv205oxiM1KfuGOQ)
 4. Game "Balance"
 ```
 $ brain-balance
 ```
-
+[![asciicast](https://asciinema.org/a/04Vb79cYsvd3CUSBB6mwhSP3o.png)](https://asciinema.org/a/04Vb79cYsvd3CUSBB6mwhSP3o)
 5. The game "The greatest common divisor"
 ```
 $ brain-gcd
 ```
-
+[![asciicast](https://asciinema.org/a/mstVHZOAJsAqLLD8s9z1wqW40.png)](https://asciinema.org/a/mstVHZOAJsAqLLD8s9z1wqW40)
 6. The game "Is it a simple number?"
 ```
 $ brain-prime
 ```
-[![asciicast](https://asciinema.org/a/ZvgZM8Y42FhYUhvmnYRoCu0JX.png)](https://asciinema.org/a/ZvgZM8Y42FhYUhvmnYRoCu0JX)
+
 7. The game "Arithmetic progression"
 ```
 $ brain-progression
 ```
+[![asciicast](https://asciinema.org/a/ZvgZM8Y42FhYUhvmnYRoCu0JX.png)](https://asciinema.org/a/ZvgZM8Y42FhYUhvmnYRoCu0JX)
