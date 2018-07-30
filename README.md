@@ -11,15 +11,16 @@ Brian Games is a set of console mini-games. Type one of the commands, and answer
 
 ### Use the following commands
 1. brain-games
-
+Starts the game and asks for your name.
 2. brain-calc
-
+Game: "Calculator"
 3. brain-even
-
+Game: "Check for parity"
 4. brain-balance
-
+Game "Balance"
 5. brain-gcd
-
+The game "The greatest common divisor"
 6. brain-prime
-
+The game "Is it a simple number?"
 7. brain-progression
+The game "Arithmetic progression"
