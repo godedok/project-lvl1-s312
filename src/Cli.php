@@ -5,6 +5,8 @@ namespace BrainGames\Cli;
 use function \cli\line;
 use function \cli\prompt;
 
+const QUESTIONS_NUMBER = 3;
+
 function startGame($description, $getGame)
 {
     line('Welcome to the Brain Game!');
@@ -12,8 +14,7 @@ function startGame($description, $getGame)
     $name = prompt(line('May I have your name?'));
     line("Hello, %s!", $name);
     
-    $questionsNumber = 3;
-    for ($i = 0; $i < $questionsNumber; $i++) {
+    for ($i = 0; $i < QUESTIONS_NUMBER; $i++) {
         ["question" => $question, "trueAnswer" => $trueAnswer] = $getGame();
         line("Question: %s", $question);
         $userAnswer = prompt("Your answer");

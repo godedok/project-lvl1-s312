@@ -3,15 +3,18 @@
 namespace BrainGames\Games\Progression;
 
 const DESCRIPTION_PROGRESSION = 'What number is missing in this progression?';
+const PROGRESSION_LENGTH = 10;
 
 use function \BrainGames\Cli\startGame;
 
 function run()
 {
     $getProgressionGame = function () {
-        $index = rand(0, 9);
-        $progression = createProgression();
-        $trueAnswer = $progression[$index];
+        $hiddenIndex = rand(0, 9);
+        $startValue = rand(1, 20);
+        $step = rand(1, 5);
+        $progression = createProgression($startValue, $step);
+        $trueAnswer = $progression[$hiddenIndex];
         $progression[$index] = "..";
         $question = implode(' ', $progression);
         return [
@@ -22,13 +25,11 @@ function run()
     startGame(DESCRIPTION_PROGRESSION, $getProgressionGame);
 }
 
-function createProgression()
+function createProgression($startValue, $step)
 {
     $arrayOfNumbers = [];
-    $arrayOfNumbers[0] = rand(1, 20);
-    $step = rand(1, 5);
-    $progressionLength = 10;
-    for ($i = 1; $i < $progressionLength; $i++) {
+    $arrayOfNumbers[0] = $startValue;
+    for ($i = 1; $i < PROGRESSION_LENGTH; $i++) {
         $arrayOfNumbers[$i] = $arrayOfNumbers[$i - 1] + $step;
     }
     return $arrayOfNumbers;
