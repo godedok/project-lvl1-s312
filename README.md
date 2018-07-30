@@ -39,7 +39,7 @@ $ brain-gcd
 ```
 $ brain-prime
 ```
-
+[![asciicast](https://asciinema.org/a/ZvgZM8Y42FhYUhvmnYRoCu0JX.png)](https://asciinema.org/a/ZvgZM8Y42FhYUhvmnYRoCu0JX)
 7. The game "Arithmetic progression"
 ```
 $ brain-progression
