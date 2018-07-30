@@ -10,23 +10,37 @@ composer global require godedok/php-brain-games:dev-master
 Brian Games is a set of console mini-games. Type one of the commands, and answer three questions correctly. If you make a mistake, you can start again.
 
 ### Use the following commands
-1. 
-```bash
+1. Starts the game and asks for your name.
+```
 $ brain-games
 ```
-Starts the game and asks for your name.
-2. 
+
+2. Game: "Calculator"
 ```
-brain-calc
+$ brain-calc
 ```
-Game: "Calculator"
-3. brain-even
-Game: "Check for parity"
-4. brain-balance
-Game "Balance"
-5. brain-gcd
-The game "The greatest common divisor"
-6. brain-prime
-The game "Is it a simple number?"
-7. brain-progression
-The game "Arithmetic progression"
+
+3. Game: "Check for parity"
+```
+$ brain-even
+```
+
+4. Game "Balance"
+```
+$ brain-balance
+```
+
+5. The game "The greatest common divisor"
+```
+$ brain-gcd
+```
+
+6. The game "Is it a simple number?"
+```
+$ brain-prime
+```
+
+7. The game "Arithmetic progression"
+```
+$ brain-progression
+```
