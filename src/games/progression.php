@@ -12,10 +12,10 @@ function run()
     $getProgressionGame = function () {
         $hiddenIndex = rand(0, 9);
         $startValue = rand(1, 20);
-        $step = rand(1, 5);
+        $step = rand(2, 5);
         $progression = createProgression($startValue, $step);
         $trueAnswer = $progression[$hiddenIndex];
-        $progression[$index] = "..";
+        $progression[$hiddenIndex] = "..";
         $question = implode(' ', $progression);
         return [
             "question" => "{$question}",
@@ -28,9 +28,8 @@ function run()
 function createProgression($startValue, $step)
 {
     $arrayOfNumbers = [];
-    $arrayOfNumbers[0] = $startValue;
-    for ($i = 1; $i < PROGRESSION_LENGTH; $i++) {
-        $arrayOfNumbers[$i] = $arrayOfNumbers[$i - 1] + $step;
+    for ($i = 0; $i < PROGRESSION_LENGTH; $i++) {
+        $arrayOfNumbers[$i] = $startValue + $i * $step;
     }
     return $arrayOfNumbers;
 }
