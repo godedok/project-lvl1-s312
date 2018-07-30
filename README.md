@@ -10,7 +10,9 @@ composer global require godedok/php-brain-games:dev-master
 Brian Games is a set of console mini-games. Type one of the commands, and answer three questions correctly. If you make a mistake, you can start again.
 
 ### Use the following commands
-1. brain-games
+1. ```bash
+brain-games
+```
 Starts the game and asks for your name.
 2. brain-calc
 Game: "Calculator"
